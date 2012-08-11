@@ -2,6 +2,10 @@
 import sys
 import re
 
+# example 
+# cat file | ./extract.py  '\]\[ *(\d+).* in (\d+)' '<%s> <%s>'
+
+
 pattern=sys.argv[1]
 s=sys.argv[2]
 
